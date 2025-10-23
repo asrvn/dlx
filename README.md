@@ -2,7 +2,7 @@
 
 A compact, dependency-free 9x9 Sudoku solver that reduces Sudoku to an *exact cover* problem and solves it with Donald Knuth’s **Algorithm X** implemented via **Dancing Links (DLX)**. Course rules restricted third-party and array libraries.
 
-> Built November 2023 the Artificial Intelligence course at TJHSST. Kept as a reference implementation. I later replaced it with an optimized backtracking solver for performance reasons.
+> Created in November 2023 for the Artificial Intelligence course at TJHSST. Kept as a reference implementation. I later replaced it with an optimized backtracking solver for performance reasons.
 
 ---
 ## Requirements
