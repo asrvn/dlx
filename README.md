@@ -1,6 +1,6 @@
 # Dancing Links
 
-A compact, dependency-free 9x9 Sudoku solver that reduces Sudoku to an *exact cover* problem and solves it with Donald Knuth’s **Algorithm X** implemented via **Dancing Links (DLX)**. Course rules restricted third-party and array libraries.
+A compact, dependency-free 9x9 Sudoku solver that reduces Sudoku to an *exact cover problem* and solves it with Donald Knuth’s **Algorithm X** implemented via **Dancing Links (DLX)**. Course rules restricted third-party and array libraries.
 
 > Created in November 2023 for the Artificial Intelligence course at TJHSST. Kept as a reference implementation. I later replaced it with an optimized backtracking solver for performance reasons.
 
@@ -28,5 +28,5 @@ The solver builds a sparse binary matrix with one row per candidate assignment a
 
 ```bash
 # Python ≥ 3.8 (due to walrus operator)
-python solver.py path/to/puzzles.txt
+python dlx.py path/to/puzzles.txt
 ```
