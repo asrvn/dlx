@@ -2,14 +2,14 @@
 
 A compact, dependency-free 9x9 Sudoku solver that reduces Sudoku to an *exact cover problem* and solves it with Donald Knuth’s **Algorithm X** implemented via **Dancing Links (DLX)**. Course rules restricted third-party and array libraries.
 
-> Created in November 2023 for the Artificial Intelligence course at TJHSST. Kept as a reference implementation. I later replaced it with an optimized backtracking solver for performance reasons.
+<sub>(Created in November 2023 for the AI course at TJHSST. Kept as a reference implementation. Later replaced with an optimized backtracking solver for performance reasons. **A carefully tuned backtracker with bitsets and heuristic ordering will beat pure Python DLX on most Sudoku inputs!**)</sub>
 
 ---
 ## Requirements
 
-- **9×9 Sudoku**: (81 chars per puzzle).
-- **Format:** Digits `1–9` for givens; `.` or `0` for blanks.
-- **Input File:** A multiline .txt of puzzles, one per line.
+- **9×9 Sudoku**: (81 chars per puzzle)
+- **Format:** Digits `1 - 9` for givens, `.` or `0` for blanks
+- **Input File:** A multiline .txt of puzzles, one per line
 
 ---
 ## How it works
