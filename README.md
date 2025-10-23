@@ -1,2 +1,2 @@
-# dlx
-Python Sudoku solver implementing Donald Knuth's Algorithm X with Dancing Links 
+# Dancing Links
+Created this solver back in November 2023 for my Artificial Intelligence class at TJHSST. Replaced it with optimized brute force later on.
