@@ -329,10 +329,4 @@ def main():
         print(f"{puzzleNum}: {puzzle}")
         print(f"{' ' * (int(math.log10(puzzleNum)) + 2)} {solution} {checkSum(solution, puzzleLength)} {time.process_time() - startTime:.3}")
 
-    # if solution == "987654321246173985351928746128537694634892157795461832519286473472319568863745219":  # Check against known last output just in case
-
-    #     print("Correct solution")
-
 main()
-
-# Anieesh Saravanan, 6, 2025
